@@ -1,0 +1,53 @@
+/* Estilos para centrar el formulario de login */
+body {
+    background-color: #13441d; /* Color de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+
+    background-color: #f4fff6; /* Fondo del formulario */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    max-height:90%;
+    display: flex; /* Permite centrar el contenido verticalmente */
+    flex-direction: column; /* Organiza el contenido en una columna */
+    justify-content: center; 
+}
+
+h2 {
+    color: #13441d; /* Color del título */
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #13441d;
+    border-color: #13441d;
+}
+
+.btn-primary:hover {
+    background-color: #38a14e;
+}
+
+p {
+    text-align: center;
+}
+
+.sub {
+    color: #13441d;
+}
+.card {
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave en las tarjetas */
+}
